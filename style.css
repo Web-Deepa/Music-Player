@@ -1,0 +1,104 @@
+*{
+   
+    box-sizing:border-box;
+  margin:0;
+  padding:0;
+   
+}
+  
+
+body{
+font-family:sans-serif;
+background:lch(89.4% 1.08 18.92);
+padding-bottom:30px;
+display:flex;
+flex-direction:column;
+align-items:center;
+width:100%;
+
+
+}
+
+h2{
+       text-align:center;
+    margin:10px;
+    color:hsl(358, 52%, 28%);
+   border-bottom:1px solid #b8b1b1;
+   padding-bottom:10px;
+   width:100%;
+   box-sizing:border-box;
+  }
+  
+
+.player{
+  
+
+background:lab(84.42% 10.15 3.73);
+padding:15px;
+border-radius:15px;
+box-shadow:0 10px 20px rgb(54, 52, 52);
+width:400px;
+height:auto;
+
+text-align:center;
+}
+.info h4{
+text-align:left;
+    margin:10px;
+    font-size:1.2rem;
+
+}
+.info p{
+    text-align:left;
+    margin:10px;
+    color:#666;
+    margin-bottom:20px;
+}
+.progress{
+   margin:20px; 
+}
+.progress-state{
+    display:flex;
+    justify-content:space-between;
+    font-size:0.7rem;
+
+}
+
+.controls button{
+    font-size:1.5rem;
+    border:none;
+    cursor:pointer;
+    margin:10px;
+    transition: 0.3s;
+}
+.controls button:hover{
+    color:#007bff;
+}
+
+input[type="range"]{
+    width:100%;
+    cursor:pointer;
+}
+
+.vol{
+margin-top:15px;
+text-align:left
+}
+.playlist
+{
+    text-align:left;
+    margin-top:20px;
+    border-top:1px solid #eee;
+  padding-top:10px;
+}
+.playlist-item{
+  padding:5px;
+  cursor:pointer;
+  font-size:0.9rem;
+}
+.playlist-item.active{
+    background:#e7f3ff;
+    color:#007bff;
+    font-weight:bold;
+
+}
