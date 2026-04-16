@@ -2,17 +2,17 @@ const songs = [
   {
     title: "देशले रगत मागे मलाई बलि चढाऊ",
     artist: "Gopal Yongan",
-    src: "/songs/m3.mpeg"
+    src: "/songs/m3.mp3"
   },
   {
     title: "रातो र चन्द्र सूर्य",
     artist: "Gopal Prasad Rimal",
-    src: "/songs/m2.mpeg"
+    src: "/songs/m2.mp3"
   },
   {
     title: "लाग्दछ मलाई रमाइलो",
     artist: "Madhab Prasad Ghimire",
-    src: "/songs/m1.mpeg"
+    src: "/songs/m1.mp3"
   },
   {
     title: "Neon Lights",
